@@ -14,9 +14,12 @@
 //     All used elements will be primitive.
 
 
-
-
-
+function duplicateSandwich(a) {
+    for (let i = 0; i < a.length; i++) {
+        if (a.indexOf(a[i]) !== a.lastIndexOf(a[i]))
+            return a.slice(a.indexOf(a[i]) + 1, a.lastIndexOf(a[i]))
+    }
+}
 
 //TESTS
 

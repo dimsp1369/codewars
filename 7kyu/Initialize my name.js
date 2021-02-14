@@ -18,6 +18,8 @@ function initializeNames(name){
     }
 }
 
+//TESTS
+
 Test.describe('Static tests', function(){
     Test.it('Initialize Names', function(){
         Test.assertEquals(initializeNames('Jack Ryan'), 'Jack Ryan','');
